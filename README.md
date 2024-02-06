@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # art_website
 
 idiot check: how to push changes:\
