@@ -1,13 +1,30 @@
 .navbar {
-    overflow: hidden;
-}
-
-.navbar a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
+    overflow:hidden;
+    justify-content:space-between;
+    display:flex;
+    align-items:center;
 }
 
 .navbar #logo {
-    text-align: left;
+    text-align:left;
+    width:100px;
+    height:71px;
 }
+
+.navbar ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.navbar li {
+    display:inline-block;
+}
+
+.navbar a {
+    display:inline-block;
+    padding:14px 16px;
+}
+
+
