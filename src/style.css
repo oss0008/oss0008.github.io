@@ -1,14 +1,16 @@
 .navbar {
     overflow: hidden;
-    justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
 .navbar #logo {
     text-align: left;
+}
+
+.narbar #logo input {
     width: 100px;
-    height:71px;
+    height: auto;
 }
 
 .navbar #links {
