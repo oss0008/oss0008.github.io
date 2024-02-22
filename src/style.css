@@ -7,13 +7,11 @@
 
 .navbar #logo {
     text-align: left;
-    width: 3602px;
-    height: 2490px;
 }
 
 .navbar #links {
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 .navbar #links a {
