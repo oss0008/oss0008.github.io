@@ -7,14 +7,16 @@
 
 .navbar #logo {
     text-align: left;
+    width: 100px;
+    height: 71px;
 }
 
 .navbar #links {
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
-.navbar a {
+.navbar #links a {
     padding: 14px 20px;
     text-decoration: none;
     text-transform: uppercase;
