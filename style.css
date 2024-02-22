@@ -1,5 +1,13 @@
-#navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar #logo {
+    text-align: left;
 }
