@@ -7,13 +7,17 @@
 
 .navbar #logo {
     text-align: left;
-    width: 100px;
-    height: 71px;
 }
 
 .navbar #links {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
