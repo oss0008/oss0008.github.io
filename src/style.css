@@ -7,11 +7,16 @@
 
 .navbar #logo {
     text-align: left;
+    width: 100px;
+    height:71px;
 }
 
 .navbar #links {
+    /* text-align: center; */
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
 .navbar #links a {
