@@ -17,8 +17,8 @@
 .navbar #links {
     /* text-align: center; */
     display: flex;
-    /* justify-content: center; */
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-between; */
     /* align-items: center; */
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@
 }
 
 .about img {
-    width: 500px;
+    width: 300px;
     height: auto;
     margin-right: 20px;
 }
