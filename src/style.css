@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 15px;
+    padding-right: 40px;
     /* flex-grow: 1; */
 
 }
@@ -58,16 +58,14 @@
     display: flex;
     width: 300px;
     height: auto;
-    justify-content: space-between;
+    padding-right: 50px;
 }
 
 .about #blurb {
     display: flex;
     text-decoration: none;
     flex: 1;
-    justify-content: space-between;
 }
-
 
 /* CONTACT PAGE */
 
