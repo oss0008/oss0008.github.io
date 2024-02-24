@@ -62,6 +62,7 @@
 .about #blurb {
     display: flex;
     text-decoration: none;
+    flex: 1;
 }
 
 
