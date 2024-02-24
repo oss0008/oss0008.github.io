@@ -55,14 +55,14 @@
 }
 
 .about img {
-    display: flex;
+    /* display: flex; */
     width: 300px;
     height: auto;
     padding-right: 50px;
 }
 
 .about #blurb {
-    display: flex;
+    /* display: flex; */
     text-decoration: none;
     /* flex: 1; */
 }
