@@ -1,3 +1,7 @@
+.check h1 {
+    text-align: center;
+}
+
 .navbar {
     overflow: hidden;
     display: flex;
