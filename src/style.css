@@ -6,7 +6,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .navbar #logo {
@@ -19,11 +19,9 @@
 }
 
 .navbar #links {
-    /* text-align: center; */
+    text-align: center;
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* align-items: center; */
     margin: 0;
     padding: 0;
     /* flex-grow: 1; */
@@ -42,20 +40,20 @@
     align-items: center;
     justify-content: center;
     display: inline-block;
+    text-align: center;
 
 }
 
 .about img {
     width: 300px;
     height: auto;
+    float: left;
     /* margin-right: 20px; */
     /* flex: 1;
     padding: 20px; */
 }
 
-/* .about #blurb {
-    margin-left: auto;
-     flex: 1;
-    padding: 20px; 
-} */
+.about #blurb {
+    text-decoration: none;
+}
 
