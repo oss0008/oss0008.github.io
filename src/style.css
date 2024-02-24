@@ -38,6 +38,12 @@
 
 /* INDEX PAGE */
 
+/* GALLERY PAGE */
+
+.gallery {
+    text-align:center;
+}
+
 /* ABOUT PAGE */
 .about {
     display: flex;
@@ -57,4 +63,5 @@
 .about #blurb {
     text-decoration: none;
 }
+
 
