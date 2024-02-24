@@ -3,6 +3,7 @@
 }
 
 .navbar {
+    text-align:center;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -42,13 +43,14 @@
     justify-content: center;
     display: inline-block;
     text-align: center;
+    margin: 0;
 
 }
 
 .about img {
     width: 300px;
     height: auto;
-    float: left;
+    /* float: left; */
     /* margin-right: 20px; */
     /* flex: 1;
     padding: 20px; */
