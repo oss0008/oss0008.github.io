@@ -1,4 +1,4 @@
-.check h1 {
+.check {
     text-align: center;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .about {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     display: inline-block;
