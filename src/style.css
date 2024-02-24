@@ -55,19 +55,22 @@
 }
 
 .about img {
+    display: flex;
     width: 300px;
     height: auto;
+    justify-content: space-between;
 }
 
 .about #blurb {
     display: flex;
     text-decoration: none;
     flex: 1;
+    justify-content: space-between;
 }
 
 
 /* CONTACT PAGE */
 
-.contact {
+.contact a {
     text-align: center;
 }
