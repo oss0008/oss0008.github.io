@@ -7,7 +7,7 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -22,7 +22,7 @@
 
 .navbar #links {
     text-align: center;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -38,10 +38,10 @@
 }
 
 .about {
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     margin: 0;
 
