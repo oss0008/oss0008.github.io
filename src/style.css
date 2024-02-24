@@ -15,14 +15,13 @@
     text-align: left;
 }
 
-.navbar #logo input[type="image"] {
+.navbar #logo img {
     width: 100px;
     height: auto;
 }
 
 .navbar #links {
-    text-align: center;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -52,8 +51,8 @@
     height: auto;
     /* float: left; */
     /* margin-right: 20px; */
-    /* flex: 1;
-    padding: 20px; */
+    /* flex: 1; */
+    padding-right: 5px; 
 }
 
 .about #blurb {
