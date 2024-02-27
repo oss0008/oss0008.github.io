@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "sedgwick_ave";
+    src: url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(woff),
+        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(woff2),
+        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(truetype),
+        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(opentype);
+}
+
+* {
+    font-family: "sedgwick_ave", sans-serif;
+}
+
 .check {
     text-align: center;
 }
@@ -34,6 +46,11 @@
     text-decoration: none;
     text-transform: uppercase;
     margin: 0;
+    color: #ed412a;
+}
+
+.navbar #links a:hover {
+    background-color: #4fb0f3;
 }
 
 /* INDEX PAGE */
