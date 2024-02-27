@@ -1,14 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: "sedgwick_ave";
     src: url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.woff") format(woff),
         url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.woff2") format(woff2),
         url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(truetype),
         url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.eot") format(opentype);
-}
-
-* {
-    font-family: "sedgwick_ave", sans-serif;
-}
+} */
 
 .check {
     text-align: center;
@@ -47,6 +43,14 @@
     text-transform: uppercase;
     margin: 0;
     color: #ed412a;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
+
+
 }
 
 .navbar #links a:hover {
