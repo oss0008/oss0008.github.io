@@ -1,9 +1,9 @@
 @font-face {
     font-family: "sedgwick_ave";
-    src: url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(woff),
-        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(woff2),
+    src: url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.woff") format(woff),
+        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.woff2") format(woff2),
         url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(truetype),
-        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(opentype);
+        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.eot") format(opentype);
 }
 
 * {
