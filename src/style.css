@@ -49,8 +49,6 @@
         1px -1px 0 black,
         -1px  1px 0 black,
         1px  1px 0 black;
-
-
 }
 
 .navbar #links a:hover {
@@ -62,6 +60,12 @@
 /* GALLERY PAGE */
 
 .gallery {
+    text-align: center;
+}
+
+/* BLOG */
+
+.blog {
     text-align: center;
 }
 
