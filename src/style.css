@@ -64,9 +64,10 @@ html, body {
 }
 
 .navbar #links a:hover {
-    background-color: #4fb0f3;
-    /* background-attachment:fixed; */
+    /* background-color: #4fb0f3; */
+    background-image: radial-graient(circle, #4fb0f3, #84c8f7)
 }
+
 
 /* INDEX PAGE */
 
