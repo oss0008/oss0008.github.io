@@ -1,15 +1,8 @@
-/* @font-face {
-    font-family: "sedgwick_ave";
-    src: url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.woff") format(woff),
-        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.woff2") format(woff2),
-        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.ttf") format(truetype),
-        url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.eot") format(opentype);
-} */
 
 * {
     font-family: "Sedgwick Ave", sans-serif;
     /* background-color: #f6a095; */
-    background-color: linear-gradient(to bottom, #f8b3aa,#b9dffa);
+    background-image: linear-gradient(to bottom, #f8b3aa,#b9dffa);
 }
 
 
@@ -96,13 +89,12 @@
     /* display: flex; */
     width: 600px;
     height: auto;
-    padding-right: 50px;
 }
 
 .about #blurb {
     /* display: flex; */
     text-decoration: none;
-    /* flex: 1; */
+    padding-left: 60px;
 }
 
 /* CONTACT PAGE */
