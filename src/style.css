@@ -65,6 +65,7 @@ html, body {
 
 .navbar #links a:hover {
     background-color: #4fb0f3;
+    background-attachment:fixed;
 }
 
 /* INDEX PAGE */
