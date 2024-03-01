@@ -8,6 +8,10 @@
     background-attachment: fixed; */
 }
 
+html, body {
+    height: 100%;
+}
+
 .sedgwick-ave-regular {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
