@@ -6,6 +6,16 @@
         url("/Users/oliviasmith/Documents/website/oss0008.github.io/src/Sedgwick_Ave/SedgwickAve-Regular.eot") format(opentype);
 } */
 
+* {
+    font-family: "sedgwick_ave", sans-serif;
+}
+
+.sedgwick-ave-regular {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .check {
     text-align: center;
 }
