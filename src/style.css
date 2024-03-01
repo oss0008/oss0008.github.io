@@ -4,8 +4,8 @@ html {
     /* background-color: #f6a095; */
     background-image: linear-gradient(to bottom, #f8b3aa,#b9dffa);
     background-repeat: no-repeat;
-    /* background-size: cover; */
     background-attachment: fixed; 
+    overflow-x:auto;
 }
 
 html, body {
@@ -65,7 +65,7 @@ html, body {
 
 .navbar #links a:hover {
     /* background-color: #4fb0f3; */
-    background-image: radial-graient(circle, #4fb0f3, #84c8f7)
+    background-image: radial-graient(circle, #4fb0f3, #84c8f7);
 }
 
 
