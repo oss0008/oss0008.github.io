@@ -65,6 +65,7 @@ html, body {
 
 .navbar #links a:hover {
     background-color: #4fb0f3;
+    border-radius: 10px;
     /* background-image: radial-graient(circle, #4fb0f3, #84c8f7); */
 }
 
