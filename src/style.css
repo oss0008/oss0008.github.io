@@ -4,8 +4,8 @@
     /* background-color: #f6a095; */
     background-image: linear-gradient(to bottom, #f8b3aa,#b9dffa);
     background-repeat: no-repeat;
-    /* background-size: cover;
-    background-attachment: fixed; */
+    /* background-size: cover; */
+    background-attachment: fixed; 
 }
 
 html, body {
