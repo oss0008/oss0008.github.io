@@ -5,12 +5,13 @@ html {
     background-image: linear-gradient(to bottom, #f8b3aa,#b9dffa);
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    overflow-x:auto;
-}
-
-html, body {
+    overflow-x: auto;
     height: 100%;
 }
+
+/* html, body {
+    height: 100%;
+} */
 
 .sedgwick-ave-regular {
     font-family: "Sedgwick Ave", cursive;
