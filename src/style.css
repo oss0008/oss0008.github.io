@@ -70,6 +70,18 @@ html {
     /* background-image: radial-graient(circle, #4fb0f3, #84c8f7); */
 }
 
+.footer {
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer #copyright {
+    text-align: left;
+}
 
 /* INDEX PAGE */
 
