@@ -2,7 +2,7 @@
 html {
     font-family: "Sedgwick Ave", sans-serif;
     /* background-color: #f6a095; */
-    background-image: linear-gradient(to bottom, #b9dffa,#f8b3aa,#b9dffa);
+    background-image: linear-gradient(to bottom, #f8b3aa,#b9dffa);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     overflow-x: auto;
@@ -30,6 +30,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin: 20px;
 }
 
 .navbar #logo {
@@ -45,7 +46,7 @@ html, body {
     display: flex;
     justify-content: center;
     margin: 0;
-    /* padding-right: 20px; */
+    padding-right: 20px;
     /* flex-grow: 1; */
 
 }
@@ -87,6 +88,7 @@ html, body {
 
 .footer #contact_links {
     text-align: right;
+    margin: 20px;
 }
 
 /* INDEX PAGE */
