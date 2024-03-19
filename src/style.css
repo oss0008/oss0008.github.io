@@ -2,7 +2,7 @@
 html {
     font-family: "Sedgwick Ave", sans-serif;
     /* background-color: #f6a095; */
-    background-image: linear-gradient(to bottom, #f8b3aa,#b9dffa);
+    background-image: linear-gradient(to bottom, #b9dffa,#f8b3aa,#b9dffa);
     background-repeat: no-repeat;
     background-attachment: fixed; 
     overflow-x: auto;
@@ -76,11 +76,19 @@ html {
     padding: 20px;
     position: fixed;
     bottom: 0;
+    right:0;
+    left: 0;
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer #copyright {
     text-align: left;
+}
+
+.footer #contact_links {
+    text-align: right;
 }
 
 /* INDEX PAGE */
