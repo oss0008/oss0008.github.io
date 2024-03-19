@@ -9,10 +9,6 @@ html {
     height: 100%;
 }
 
-/* html, body {
-    height: 100%;
-} */
-
 .sedgwick-ave-regular {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
@@ -74,7 +70,7 @@ html {
     text-align: center;
     display: flex;
     padding: 20px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     right:0;
     left: 0;
