@@ -24,12 +24,11 @@ html, body {
 }
 
 .navbar {
-    text-align:center;
-    overflow: hidden;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
     margin: 20px;
 }
 
@@ -38,7 +37,7 @@ html, body {
 }
 
 .navbar #logo a img {
-    width: 100px;
+    width: 20%;
     height: auto;
 }
 
@@ -46,7 +45,7 @@ html, body {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     /* flex-grow: 1; */
 
 }
@@ -78,8 +77,10 @@ html, body {
     bottom: 0;
     align-items: center;
     width: auto;
-    position: fixed;
     justify-content: space-between;
+    margin: 20px;
+    right: 0;
+    left: 0;
 }
 
 .footer #copyright {
@@ -88,15 +89,14 @@ html, body {
 
 .footer #contact_links {
     text-align: right;
-    margin: 20px;
 }
 
-.footer #contact_links a.hover {
+.footer #contact_links img.hover {
     background-color: #4fb0f3;
 }
 
 .footer #contact_links img {
-    width: 50px;
+    width: 30px;
     height: auto;
     padding: 14px 20px;
 }
