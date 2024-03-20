@@ -91,6 +91,16 @@ html, body {
     margin: 20px;
 }
 
+.footer #contact_links a.hover {
+    background-color: #4fb0f3;
+}
+
+.footer #contact_links img {
+    width: 50px;
+    height: auto;
+    padding: 14px 20px;
+}
+
 /* INDEX PAGE */
 
 /* GALLERY PAGE */
