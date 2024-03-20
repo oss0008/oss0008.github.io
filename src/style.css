@@ -6,11 +6,11 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     overflow-x: auto;
-    height: 100%;
+    height: auto;
 }
 
 html, body {
-    height: 100%;
+    height: auto;
 }
 
 .sedgwick-ave-regular {
@@ -73,7 +73,7 @@ html, body {
 .footer {
     text-align: center;
     display: flex;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     align-items: center;
     width: auto;
@@ -85,6 +85,7 @@ html, body {
 
 .footer #copyright {
     text-align: left;
+    font-size: 20px;
 }
 
 .footer #contact_links {
@@ -96,7 +97,7 @@ html, body {
 }
 
 .footer #contact_links img {
-    width: 30px;
+    width: 4%;
     height: auto;
     padding: 14px 20px;
 }
