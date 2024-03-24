@@ -13,6 +13,12 @@ html, body {
     height: auto;
 }
 
+@media (max-width: 650px) {
+    .navbar #links {
+        flex-direction: column;
+    }
+}
+
 .sedgwick-ave-regular {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
@@ -45,6 +51,7 @@ html, body {
     display: flex;
     justify-content: center;
     margin: 0;
+    flex-direction: row;
     /* padding-right: 20px; */
     /* flex-grow: 1; */
 
