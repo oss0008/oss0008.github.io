@@ -6,7 +6,8 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed; 
     overflow-x: auto;
-    height: auto;
+    overflow-y: auto;
+    height: 100%;
 }
 
 html, body {
