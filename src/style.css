@@ -7,7 +7,7 @@ html {
     background-attachment: fixed; 
     overflow-x: auto;
     overflow-y: auto;
-    height: 100%;
+    height: auto;
 }
 
 html, body {
