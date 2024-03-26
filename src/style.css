@@ -77,6 +77,15 @@ html, body {
     /* background-image: radial-graient(circle, #4fb0f3, #84c8f7); */
 }
 
+.title {
+    color: #ed412a;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
+}
+
 .footer {
     text-align: center;
     display: flex;
@@ -146,6 +155,8 @@ html, body {
 .contact {
     text-align: center;
 }
+
+
 
 .contact .form {
     display: flex;
