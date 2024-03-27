@@ -79,6 +79,7 @@ html, body {
 }
 
 .title {
+    text-align: center;
     color: #ed412a;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
@@ -153,7 +154,7 @@ html, body {
 
 /* CONTACT PAGE */
 
-.contact_blurb {
+#contact_blurb {
     text-align: center;
 }
 
