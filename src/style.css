@@ -166,6 +166,10 @@ html, body {
     height: auto;
 }
 
+#about #about_blurb #space {
+    flex: 1;
+}
+
 #about #about_blurb #blurb {
     /* display: flex; */
     text-decoration: none;
