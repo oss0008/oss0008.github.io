@@ -152,6 +152,11 @@ html, body {
 
 }
 
+#about #about_blurb {
+    display: flex;
+    flex-direction: row;
+}
+
 #about #about_blurb img {
     /* display: flex; */
     width: 600px;
