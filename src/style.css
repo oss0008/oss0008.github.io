@@ -147,18 +147,18 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
     margin: 60px;
 
 }
 
-#about img {
+#about #about_blurb img {
     /* display: flex; */
     width: 600px;
     height: auto;
 }
 
-#about #blurb {
+#about #about_blurb #blurb {
     /* display: flex; */
     text-decoration: none;
     padding-left: 60px;
