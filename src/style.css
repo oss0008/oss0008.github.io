@@ -76,7 +76,7 @@ html, body {
     text-transform: uppercase;
     margin: 0;
     color: #ed412a;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
         1px -1px 0 black,
@@ -91,6 +91,7 @@ html, body {
 }
 
 .title {
+    font-size: 27px;
     text-align: center;
     color: #ed412a;
     font-weight: bold;
