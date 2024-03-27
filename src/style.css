@@ -198,3 +198,7 @@ html, body {
 .form_container label {
     display: block;
 }
+
+.form_container .message {
+    height: 300px;
+}
