@@ -132,18 +132,18 @@ html, body {
 
 /* GALLERY PAGE */
 
-.gallery {
+#gallery {
     text-align: center;
 }
 
 /* BLOG */
 
-.blog {
+#blog {
     text-align: center;
 }
 
 /* ABOUT PAGE */
-.about {
+#about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,13 +152,13 @@ html, body {
 
 }
 
-.about img {
+#about img {
     /* display: flex; */
     width: 600px;
     height: auto;
 }
 
-.about #blurb {
+#about #blurb {
     /* display: flex; */
     text-decoration: none;
     padding-left: 60px;
