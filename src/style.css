@@ -199,6 +199,19 @@ html, body {
     display: block;
 }
 
-.form_container .message {
+.form_container .message textarea{
     height: 300px;
+}
+
+.form_container button {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #95d0f8;
+    background-color: #f48d7f;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ed412a;
 }
