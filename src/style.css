@@ -10,8 +10,10 @@ html {
     height: auto;
 }
 
-html, body {
+body {
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 650px) {
@@ -28,6 +30,10 @@ html, body {
 
 .check {
     text-align: center;
+}
+
+.main {
+    flex: 1;
 }
 
 .navbar {
