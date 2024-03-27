@@ -162,7 +162,7 @@ html, body {
 
 #about #about_blurb img {
     /* display: flex; */
-    width: 600px;
+    width: 50%;
     height: auto;
 }
 
