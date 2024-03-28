@@ -69,8 +69,8 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
     margin: 0;
-    color: #ed412a;
     font-size: 23px;
+    color: #ed412a;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
         1px -1px 0 black,
@@ -172,11 +172,24 @@ html, body {
 
 /* CONTACT PAGE */
 
-#contact_blurb {
+#contact #contact_blurb {
     text-align: center;
 }
 
-.form_container {
+#contact #link_blurb {
+    color: #ed412a;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
+}
+
+#contact #link_blurb:hover {
+    color: #772115;
+}
+
+#contact .form_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,11 +197,11 @@ html, body {
     /* margin: 60px; */
 }
 
-.form_container label {
+#contact .form_container label {
     display: block;
 }
 
-.form_container div input, textarea {
+#contact .form_container div input, textarea {
     width: 300px;
     height: 40px;
     margin: 10px;
@@ -198,11 +211,11 @@ html, body {
     background-color: #95d0f8;
 }
 
-.form_container .message textarea {
+#contact .form_container .message textarea {
     height: 300px;
 }
 
-.form_container button {
+#contact .form_container button {
     width: 100px;
     height: 40px;
     margin: 10px;
@@ -215,31 +228,33 @@ html, body {
     color: #204661;
 }
 
-.form_container button:hover {
+#contact .form_container button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form_container div textarea::placeholder {
+#contact .form_container div textarea::placeholder {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
     color: #47130d;
 }
 
-.form_container div input::placeholder {
+#contact .form_container div input::placeholder {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
     color: #47130d;
 }
 
-.form_container div textarea:focus {
+#contact .form_container div textarea:focus {
     outline: 2px solid #be3422;
 }
 
-.form_container div input:focus {
+#contact .form_container div input:focus {
     outline: 2px solid #be3422;
 }
+
+
 
 
 
