@@ -176,7 +176,7 @@ html, body {
     text-align: center;
 }
 
-#contact #link_blurb {
+#contact #contact_blurb #link_blurb {
     color: #ed412a;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
@@ -185,7 +185,7 @@ html, body {
         1px  1px 0 black;
 }
 
-#contact #link_blurb:hover {
+#contact #contact_blurb #link_blurb:hover {
     color: #772115;
 }
 
@@ -212,7 +212,7 @@ html, body {
 }
 
 #contact .form_container .message textarea {
-    height: 300px;
+    height: 200px;
 }
 
 #contact .form_container button {
@@ -254,7 +254,22 @@ html, body {
     outline: 2px solid #be3422;
 }
 
+/* #contact .socials {
+    text-align: center;
+}
 
+#contact .socials #link_blurb {
+    color: #ed412a;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px  1px 0 black,
+        1px  1px 0 black;
+} */
+
+#contact .socials #link_blurb:hover {
+    color: #772115;
+}
 
 
 
