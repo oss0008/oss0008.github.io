@@ -219,7 +219,14 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form_container div input, textarea::placeholder {
+.form_container div textarea::placeholder {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #5f1a11;
+}
+
+.form_container div input::placeholder {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
@@ -227,7 +234,11 @@ html, body {
 }
 
 .form_container div input, textarea:focus {
-    border: 2px solid #be3422;
+    outline: 2px solid #be3422;
+}
+
+.form_container div input:focus {
+    outline: 2px solid #be3422;
 }
 
 
