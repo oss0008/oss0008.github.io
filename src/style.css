@@ -66,11 +66,11 @@ html, body {
 
 .navbar #links a {
     padding: 14px 20px;
-    text-decoration: none;
     text-transform: uppercase;
     margin: 0;
     font-size: 23px;
     color: #ed412a;
+    text-decoration: none;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
         1px -1px 0 black,
@@ -177,6 +177,7 @@ html, body {
 }
 
 #contact #contact_blurb .link_blurb {
+    text-decoration: none;
     color: #ed412a;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
@@ -186,7 +187,7 @@ html, body {
 }
 
 #contact #contact_blurb .link_blurb:hover {
-    color: #772115;
+    color: #be3422;
 }
 
 #contact .form_container {
@@ -230,27 +231,28 @@ html, body {
 
 #contact .form_container button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 #contact .form_container div textarea::placeholder {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #47130d;
+    color: #5f1a11;
 }
 
 #contact .form_container div input::placeholder {
     font-family: "Sedgwick Ave", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #47130d;
+    color: #5f1a11;
 }
 
-#contact .form_container div textarea:focus {
+#contact .form_container div textarea:focus:hover {
     outline: 2px solid #be3422;
 }
 
-#contact .form_container div input:focus {
+#contact .form_container div input:focus:hover {
     outline: 2px solid #be3422;
 }
 
