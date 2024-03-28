@@ -176,7 +176,7 @@ html, body {
     text-align: center;
 }
 
-#contact #contact_blurb #link_blurb {
+#contact #contact_blurb .link_blurb {
     color: #ed412a;
     font-weight: bold;
     text-shadow: -1px -1px 0 black,  
@@ -185,7 +185,7 @@ html, body {
         1px  1px 0 black;
 }
 
-#contact #contact_blurb #link_blurb:hover {
+#contact #contact_blurb .link_blurb:hover {
     color: #772115;
 }
 
