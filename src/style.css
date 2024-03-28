@@ -209,7 +209,7 @@ html, body {
     padding: 10px;
     border-radius: 5px;
     /* border: 1px solid #28587a; */
-    background-color: #f48d7f;
+    background-color: #f6a095;
     font-size: 20px;
     font-weight: bold;
     color: #28587a;
@@ -233,7 +233,7 @@ html, body {
     color: #5f1a11;
 }
 
-.form_container div input, textarea:focus {
+.form_container div textarea:focus {
     outline: 2px solid #be3422;
 }
 
