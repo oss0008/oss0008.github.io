@@ -248,29 +248,12 @@ html, body {
     color: #5f1a11;
 }
 
-#contact .form_container div textarea:focus:hover {
+#contact .form_container div textarea:focus {
     outline: 2px solid #be3422;
 }
 
-#contact .form_container div input:focus:hover {
+#contact .form_container div input:focus {
     outline: 2px solid #be3422;
-}
-
-/* #contact .socials {
-    text-align: center;
-}
-
-#contact .socials #link_blurb {
-    color: #ed412a;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 black,  
-        1px -1px 0 black,
-        -1px  1px 0 black,
-        1px  1px 0 black;
-} */
-
-#contact .socials #link_blurb:hover {
-    color: #772115;
 }
 
 
