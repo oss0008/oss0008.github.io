@@ -5,13 +5,13 @@
 
 // Change this to your redirect page
 // EXAMPLE: $redirect = "formSubmitted.html";
-$redirect = "contact.html";
+$redirect = "---";
 // Change this to the email you want to send results to.
 // EXAMPLE: $sendToEmail = "myFormResults@email.com";
 $sendToEmail = "olivia.s.smith12@gmail.com";
 // Change this to the email you want to send results from (must be an @gmail.com email ).
 // EXAMPLE: $sendFromEmail = "myEmail@gmail.com";
-$sendFromEmail = $_POST["email"];
+$sendFromEmail = "---";
 // The password for the email you are sending from (whatever you write instead of myEmail@gmail.com)
 $sendFromPassword = "---";
 
