@@ -126,11 +126,6 @@ html, body {
 /* INDEX PAGE */
 
 .main_piece {
-    width: 100px;
-    height: auto;
-}
-
-.main_piece {
     display: flex;
     flex-direction: row;
     align-items: center;
