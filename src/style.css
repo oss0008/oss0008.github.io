@@ -139,7 +139,7 @@ html, body {
     margin: 0 70px 0 70px;
 }
 
-.main #index #intro_blurb {
+#intro_blurb {
     text-align: center;
     text-decoration: none;
     justify-content: center;
