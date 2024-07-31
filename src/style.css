@@ -138,6 +138,17 @@ html, body {
     margin: 60px;
 }
 
+.main_piece img {
+    width: 300px;
+    height: 300px;
+    margin: 0 70px 0 70px;
+}
+
+.intro_blurb {
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* GALLERY PAGE */
