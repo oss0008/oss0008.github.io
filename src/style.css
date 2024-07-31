@@ -125,7 +125,7 @@ html, body {
 
 /* INDEX PAGE */
 
-.main_piece {
+#main_piece {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -133,7 +133,7 @@ html, body {
     margin: 60px;
 }
 
-.main #index #main_piece img {
+#main_piece img {
     width: 250px;
     height: 250px;
     margin: 0 70px 0 70px;
