@@ -125,6 +125,17 @@ html, body {
 
 /* INDEX PAGE */
 
+
+.main_piece {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+
+
 /* GALLERY PAGE */
 
 #gallery {
