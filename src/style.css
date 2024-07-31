@@ -140,6 +140,7 @@ html, body {
 }
 
 .intro_blurb {
+    text-align: center;
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -149,12 +150,6 @@ html, body {
 /* GALLERY PAGE */
 
 #gallery {
-    text-align: center;
-}
-
-/* BLOG */
-
-#blog {
     text-align: center;
 }
 
@@ -275,6 +270,13 @@ html, body {
 
 #contact .form_container div input:focus {
     outline: 2px solid #be3422;
+}
+
+
+/* BLOG */
+
+#blog {
+    text-align: center;
 }
 
 
