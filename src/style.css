@@ -133,18 +133,20 @@ html, body {
     margin: 60px;
 }
 
-.main_piece img {
-    width: 300px;
-    height: 300px;
+.main #index #main_piece img {
+    width: 250px;
+    height: 250px;
     margin: 0 70px 0 70px;
 }
 
-.intro_blurb {
+.main #index #intro_blurb {
     text-align: center;
     text-decoration: none;
     justify-content: center;
     align-items: center;
+    margin: 60px;
 }
+
 
 
 /* GALLERY PAGE */
