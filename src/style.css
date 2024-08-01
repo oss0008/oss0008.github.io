@@ -159,8 +159,10 @@ html, body {
 }
 
 .news_box {
-    width: 2000px;
-    height: 3000px;
+    width:100%;
+    min-width: 600px;
+    max-width: 900px;
+    height: 1000px;
     background-color: #b9dffa;
     border: 2px solid#f8b3aa;
     display: flex;
