@@ -24,7 +24,7 @@ html, body {
     font-style: normal;
   }
 
-.check {
+#check {
     text-align: center;
 }
 
@@ -134,9 +134,8 @@ html, body {
 }
 
 #main_piece img {
-    width: 250px;
-    height: 250px;
-    margin: 0 70px 0 70px;
+    width: 30%;
+    height: 30%;
 }
 
 #intro_blurb {
