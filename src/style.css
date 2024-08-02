@@ -131,6 +131,7 @@ html, body {
     align-items: center;
     justify-content: space-between;
     margin: 60px;
+    max-width:1300px;
 }
 
 #main_piece img {
@@ -138,12 +139,16 @@ html, body {
     height: 25%;
 }
 
+.intro_box #main_piece .space {
+    margin: 25px;
+}
+
 #intro_blurb {
     text-align: center;
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    margin: 60px;
+    margin: 0px 60px 60px 60px;
 }
 
 #news {
