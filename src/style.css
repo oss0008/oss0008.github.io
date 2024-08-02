@@ -198,7 +198,7 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 100px;
+    max-width: 1000px;
 }
 
 #about #about_blurb img {
