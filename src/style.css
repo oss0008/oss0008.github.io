@@ -125,6 +125,13 @@ html, body {
 
 /* INDEX PAGE */
 
+.intro_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #main_piece {
     display: flex;
     flex-direction: row;
