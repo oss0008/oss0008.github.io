@@ -172,7 +172,7 @@ html, body {
     justify-content: center;
 }
 
-.news_box {
+/* .news_box {
     width:100%;
     min-width: 600px;
     max-width: 900px;
@@ -185,7 +185,7 @@ html, body {
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-}
+} */
 
 
 
