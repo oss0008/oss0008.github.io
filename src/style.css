@@ -142,8 +142,8 @@ html, body {
 }
 
 #main_piece img {
-    width: 25%;
-    height: 25%;
+    width: 30%;
+    height: 30%;
 }
 
 .intro_box #main_piece .space {
@@ -331,6 +331,15 @@ html, body {
 @media (max-width: 650px) {
     .navbar #links {
         flex-direction: column;
+    }
+
+    #main_piece {
+        flex-direction: column;
+    }
+
+    #main_piece img {
+        width: 60%;
+        height: 60%;
     }
 }
 
