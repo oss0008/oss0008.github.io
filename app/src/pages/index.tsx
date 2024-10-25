@@ -28,12 +28,32 @@ export default function App({ Component, pageProps }: AppProps) {
                 <h1>Website just for you ;&#41;</h1>
             </div>
             <div className="intro_box">
-                <div id="main_piece">
-                    <Image src="/img/img1.png" width={500} height={500} alt="img1"/>
+                <div className="main_piece">
+                  {/* <div style={{
+                      width: 15,
+                      height: 75,
+                      position: "relative",
+                    }}></div> */}
+                    <Image className="img"
+                      src="/img/img1.png" 
+                      width="0"
+                      height="0"
+                      sizes="100vw"
+                      alt="img1"/>
                     <div className="space"></div>
-                    <Image src="/img/img2.png" width={20} height={20} alt="img2"/>
+                    <Image className="img"
+                      src="/img/img2.png"
+                      width="0"
+                      height="0"
+                      sizes="100vw" 
+                      alt="img2"/>
                     <div className="space"></div>
-                    <Image src="/img/img3.png" width={20} height={20} alt="img3"/>
+                    <Image className="img"
+                      src="/img/img3.png" 
+                      width="0"
+                      height="0"
+                      sizes="100vw" 
+                      alt="img3"/>
                 </div>
                 <div id="intro_blurb">
                     <p>
